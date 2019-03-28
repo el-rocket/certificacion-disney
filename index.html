@@ -29,6 +29,12 @@
 	<link rel="stylesheet" href="css-global/responsive.css" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
+	<link rel="stylesheet" href="css-local/style.css" type="text/css" />
+	<link rel="stylesheet" href="css-local/aos.css" type="text/css" />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="open-iconic-master/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+	
 	<!-- Document Title
 	============================================= -->
 	<title>Enfoque Disney al Servicio de Calidad</title>
@@ -40,12 +46,28 @@
 			line-height: 54px;
 			font-size: 22px;
 		}
+		body {overflow-x:hidden;}
 	</style>
 
+
+<SCRIPT LANGUAGE="JavaScript">
+
+	
+	function QuitSite(){
+	
+	window.open("https://prospectta.com/lecciones-de-liderazgo-de-walt-disney-comunicar-una-vision/", 'width=800,height=600');
+//window.close();
+	}
+	// End -->
+	</script> 
+<script>
+//window.open("https://prospectta.com/lecciones-de-liderazgo-de-walt-disney-comunicar-una-vision/", 'width=800,height=600');
+//window.close();
+</script>
 </head>
 
-<body class="stretched">
-
+<body class="stretched"  >
+<div id="DisInit"></div>
 	<!-- Document Wrapper
 	============================================= -->
 	<div id="wrapper" class="clearfix">
@@ -64,7 +86,7 @@
 					<!-- Logo
 						============================================= -->
 					<div id="logo">
-						<img src="images/walt_disney_PNG45.png" alt="Disney">
+						<a href="#DisInit"><img src="images/walt_disney_PNG45.png" alt="Disney"></a>
 					</div><!-- #logo end -->
 
 
@@ -76,7 +98,7 @@
 
 		<!-- Slider
 		============================================= -->
-		<section id="slider" class="slider-element full-screen slider-parallax">
+		<section id="c" class="slider-element full-screen slider-parallax">
 			<div class="full-screen section nopadding nomargin noborder ohidden"
 				style="background: url('images/page/disney-01.jpg') bottom center no-repeat; background-size: cover;">
 
@@ -177,11 +199,12 @@
 
 
 							</p>
+							
 
 						</div>
 
 					</div>
-
+					
 
 
 					<!-- Portfolio Items
@@ -258,6 +281,8 @@
 
 
 	</div>
+	
+	
 
 	<div id="section-services" class="page-section notoppadding">
 
@@ -303,30 +328,7 @@
 								<h3>Cultura</h3>
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-6 col-padding">
-							<div class="feature-box fbox-center fbox-dark fbox-plain fbox-small nobottomborder">
-								<div class="fbox-icon">
-									<a href="#"><i class="icon-et-gears"></i></a>
-								</div>
-								<h3>Emprendedurismo</h3>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6 col-padding">
-							<div class="feature-box fbox-center fbox-dark fbox-plain fbox-small nobottomborder">
-								<div class="fbox-icon">
-									<a href="#"><i class="icon-et-genius"></i></a>
-								</div>
-								<h3>Estrategia</h3>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6 col-padding">
-							<div class="feature-box fbox-center fbox-dark fbox-plain fbox-small nobottomborder">
-								<div class="fbox-icon">
-									<a href="#"><i class="icon-et-hotairballoon"></i></a>
-								</div>
-								<h3>Calidad</h3>
-							</div>
-						</div>
+						
 					</div>
 				</div>
 			</div>
@@ -335,7 +337,7 @@
 
 		<div class="section dark nomargin">
 			<div class="divcenter center" style="max-width: 900px;">
-				<h2 class="nobottommargin t300 ls1"> Regístrate con <a href="https://prospectta.com/"
+				<h2 class="nobottommargin t300 ls1"> Regístrate con <a href="https://prospectta.com/enfoque-disney-al-servicio-de-calidad/"
 						class="button button-border button-circle button-light button-large notopmargin nobottommargin"
 						style="position: relative; top: -3px;">Prospectta</a></h2>
 			</div>
@@ -352,7 +354,7 @@
 		<div class="section nomargin">
 			<div class="container clearfix">
 				<div class="divcenter center" style="max-width: 900px;">
-					<h2 class="nobottommargin t300 ls1">26 al 30 de junio de 2019</h2>
+					<h2 class="nobottommargin t300 ls1">18 al 22 de septiembre 2019</h2>
 				</div>
 			</div>
 		</div>
@@ -370,7 +372,7 @@
 		<div class="container topmargin-lg clearfix">
 			<h1 style="text-align:center">patrocinadores</h1>
 
-			<div class="row align-items-stretch grid-border clearfix">
+			<div class="row align-items-stretch  clearfix">
 				<div class="col-lg-4 col-md-6 col-padding">
 					<div class="feature-box fbox-center fbox-dark fbox-plain fbox-small nobottomborder">
 						<div class="oc-item"><img src="images/clients/patrocinadores/Porspeta_Logo.png"
@@ -445,67 +447,17 @@
 
 			<div class="divcenter topmargin" style="max-width: 850px;">
 
-				<div class="form-widget">
+				<div class="form-widget" style="align:center">
 
-					<div class="form-result"></div>
-
-					<form class="nobottommargin" id="template-contactform" name="template-contactform"
-						action="../include/form.php" method="post">
-
-
-						<h1 style="text-align:center">Preguntas o comentarios</h1>
-
-						<div class="form-process"></div>
-
-						<div class="col_half">
-							<input type="text" id="template-contactform-name" name="template-contactform-name" value=""
-								class="sm-form-control border-form-control required" placeholder="Name" />
+					<a href="https://prospectta.com/lecciones-de-liderazgo-de-walt-disney-comunicar-una-vision/"   > 
+						<div  class="  " data-aos="fade-up" data-aos-delay="1000" >
+							<div class="MsInf">
+								Mas informacion
+							</div>
 						</div>
-						<div class="col_half col_last">
-							<input type="email" id="template-contactform-email" name="template-contactform-email"
-								value="" class="required email sm-form-control border-form-control"
-								placeholder="Email Address" />
-						</div>
+					</a>
 
-						<div class="clear"></div>
-
-						<div class="col_one_third">
-							<input type="text" id="template-contactform-phone" name="template-contactform-phone"
-								value="" class="sm-form-control border-form-control" placeholder="Phone" />
-						</div>
-
-						<div class="col_two_third col_last">
-							<input type="text" id="template-contactform-subject" name="subject" value=""
-								class="required sm-form-control border-form-control" placeholder="Subject" />
-						</div>
-
-						<div class="clear"></div>
-
-						<div class="col_full">
-							<textarea class="required sm-form-control border-form-control"
-								id="template-contactform-message" name="template-contactform-message" rows="7" cols="30"
-								placeholder="Your Message"></textarea>
-						</div>
-
-						<div class="col_full center">
-							<button class="button button-border button-circle t500 noleftmargin topmargin-sm"
-								type="submit" id="template-contactform-submit" name="template-contactform-submit"
-								value="submit">Send Message</button>
-							<br>
-							<small style="display: block; font-size: 13px; margin-top: 15px;">We'll do our
-								best to get back to you within 6-8 working hours.</small>
-						</div>
-
-						<div class="clear"></div>
-
-						<div class="col_full hidden">
-							<input type="text" id="template-contactform-botcheck" name="template-contactform-botcheck"
-								value="" class="sm-form-control" />
-						</div>
-
-						<input type="hidden" name="prefix" value="template-contactform-">
-
-					</form>
+					
 
 				</div>
 
@@ -523,50 +475,13 @@
 		============================================= -->
 	<footer id="footer" class="dark noborder">
 
-		<div class="container center">
-			<div class="footer-widgets-wrap">
-
-				<div class="row divcenter clearfix">
-
-					<div class="col-lg-4">
-
-
-
-					</div>
-
-					<div class="col-lg-4">
-
-						<div class="widget subscribe-widget clearfix" data-loader="button">
-							<h4>Subscribe</h4>
-
-							<div class="widget-subscribe-form-result"></div>
-							<form id="widget-subscribe-form" action="../include/subscribe.php" method="post"
-								class="nobottommargin">
-								<input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email"
-									class="form-control form-control-lg not-dark required email"
-									placeholder="Your Email Address">
-								<button class="button button-border button-circle button-light topmargin-sm"
-									type="submit">Subscribe Now</button>
-							</form>
-						</div>
-
-					</div>
-
-					<div class="col-lg-4">
-
-
-
-					</div>
-
-				</div>
-
-			</div>
-		</div>
+		
 
 		<div id="copyrights">
 			<div class="container center clearfix">
 				Copyright El Rocket 2019 | All Rights Reserved
 			</div>
+			
 		</div>
 
 	</footer><!-- #footer end -->
@@ -632,7 +547,10 @@
 			pause: "false"
 		});
 	</script>
-
+	<script src="js/aos.js"></script>
+	<script>
+		AOS.init();
+	  </script>
 </body>
 
 </html>
