@@ -14,3 +14,24 @@
     transform: scale(1.05, 1.02);
 }
 
+.Crsl_img{
+    width: 100vw;
+    height:100vh;
+    min-height: 1200px;
+    max-height: 1400px;
+
+}
+
+@media (max-width: 600px){
+
+.Crsl_img{
+    width: 100vw;
+    height:100vh;
+    min-height:100px ;
+    max-height: 300px;
+    
+
+}
+
+}
+

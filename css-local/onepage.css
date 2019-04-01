@@ -676,7 +676,7 @@ textarea.border-form-control {
 	}
 
 	#header.transparent-header.dark:not(.sticky-header) #header-wrap {
-		background-color: #333;
+		background-color: #e20909;
 		border-bottom-color: rgba(255,255,255,0.1) !important;
 	}
 
