@@ -37,20 +37,42 @@
 
 */
 
-.Carousel_height{
-    height:1000px;
 
-}
 .Crsl_img{
 max-width: 100%; 
  height: auto;
 }
 
-@media (max-width: 800px){
+
+.Icons_floating{
+
+    color:white;
+    font-size: 64px !important;
+    padding: 0 10px 0 10px;
+}
+
+.icon_whats{
+
+    background: #24d366;
+}
+.icon_info{
+
+    background: #178ead;
+}
 
 
-    .Carousel_height{
-        height:400px;
+@media only screen and (max-width: 600px){
+    .Icons_floating{
 
+        font-size: 20px !important;
+        display: table;
+        margin-right: 13px;
+     
     }
+    .certificacionñ{
+        text-align: center;
+    }
+    
+
+   
 }
