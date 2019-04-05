@@ -49,6 +49,13 @@ max-width: 100%;
     color:white;
     font-size: 64px !important;
     padding: 0 10px 0 10px;
+    transition: 0.5s;
+}
+.Icons_floating:hover{
+
+    color:white;
+    font-size: 64px !important;
+    padding: 0 10px 0 40px;
 }
 
 .icon_whats{
@@ -60,8 +67,63 @@ max-width: 100%;
     background: #178ead;
 }
 
+.buttom{
+    background: #ea2e00;
+    height:70px;
+    width: 15%;
+    float:right;
+    padding: 18px 0 ;
+     
+     text-align: center;
+      font-size: 22px;
 
-@media only screen and (max-width: 600px){
+}   
+
+.buttom_p{
+    margin: 0px ;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif !important;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+
+/*@keyframes ShadowBox {
+    0% {
+        box-shadow: 0px 0px 0px #ea2e00;
+    }
+
+    50%{
+        box-shadow: 0px 0px 10px #ea2e00;
+    }
+  
+    100% {
+        box-shadow: 0px 0px 0px #ea2e00;
+    }
+  }*/
+  
+  .buttom {
+     animation: ShadowBox 2s infinite;
+  }
+
+@media only screen and (max-width: 1415px){
+
+    .buttom{
+        background:#ea2e00;
+        height:70px;
+        width: 15%;
+        float:right;
+        padding: 0 ;
+         
+         text-align: center;
+          font-size: 22px;
+    
+    }
+
+}
+
+
+@media only screen and (max-width: 991.98px){
     .Icons_floating{
 
         font-size: 20px !important;
@@ -72,7 +134,12 @@ max-width: 100%;
     .certificacionñ{
         text-align: center;
     }
-    
+    .buttom{
+        display: none;
+    }
+    .buttom_p{
+        margin: 0px ;
+    }
 
    
 }
