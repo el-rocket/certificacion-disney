@@ -135,6 +135,13 @@ max-width: 100%;
         margin-right: 13px;  
      
     }
+    .Icons_floating:hover{
+
+        font-size: 20px !important;
+        display: table;
+        margin-right: 13px;       
+        padding: 0 10px 0 80px;
+    }
     .certificacion{    
         text-align: center;
     }
